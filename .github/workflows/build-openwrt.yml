@@ -19,10 +19,10 @@ on:
   push:
    branches:
      - master
-   paths:
-     - 'r619ac.config'
-  schedule:
-    - cron: 20 4 */12 * *
+  #  paths:
+    #  - 'r619ac.config'
+  # schedule:
+  #   - cron: 20 4 */12 * *
 #          分 时 日 月 周5
 #   - cron: 0 8 */3 * *
 #  watch:
