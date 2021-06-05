@@ -17,8 +17,8 @@ on:
 #  release:
 #    types: published
  push:
-#    branches:
-#      - master
+   branches:
+     - master
    paths:
      - 'r619ac.config'
   schedule:
